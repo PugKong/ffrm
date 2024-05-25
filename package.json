@@ -1,0 +1,30 @@
+{
+  "name": "ffrm",
+  "version": "0.0.1",
+  "author": "Pug Kong <pugkong@tuta.io>",
+  "license": "UNLICENSED",
+  "description": "Fetch web articles using Firefox in reader mode",
+  "repository": {
+    "url": "https://github.com/PugKong/ffrm"
+  },
+  "bin": {
+    "ffrm": "./dist/ffrm.js"
+  },
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "playwright-core": "^1.44.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.12.12",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
