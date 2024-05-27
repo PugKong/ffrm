@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/playwright:v1.44.1
 
-RUN npm install -g ffrm@0.0.1
+RUN npm install -g ffrm@0.0.2
 
 USER pwuser
 

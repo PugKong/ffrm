@@ -1,14 +1,14 @@
 {
   "name": "ffrm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Pug Kong <pugkong@tuta.io>",
   "license": "UNLICENSED",
   "description": "Fetch web articles using Firefox in reader mode",
   "repository": {
-    "url": "https://github.com/PugKong/ffrm"
+    "url": "git+https://github.com/PugKong/ffrm.git"
   },
   "bin": {
-    "ffrm": "./dist/ffrm.js"
+    "ffrm": "dist/ffrm.js"
   },
   "scripts": {
     "prepare": "tsc"

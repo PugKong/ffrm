@@ -8,7 +8,7 @@ import { URL } from "url";
 
 const program = new Command();
 
-program.name("ffrm").description("Fetch web articles using Firefox in reader mode").version("0.0.1");
+program.name("ffrm").description("Fetch web articles using Firefox in reader mode").version("0.0.2");
 program.command("fetch <url>").description("Fetches article's content from the specified URL").action(cli);
 program
   .command("serve")
